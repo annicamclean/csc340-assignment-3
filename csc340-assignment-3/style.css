@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(189, 185, 177);
+}
+
+header {
+    background-color: rgb(0, 0, 51);
+    min-height: 30%;
+}
+
+#title {
+    text-align: center;
+}
