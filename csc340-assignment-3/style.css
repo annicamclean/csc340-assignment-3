@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(189, 185, 177);
+    background-color: rgb(216, 214, 214);
 }
 
 header {
@@ -7,6 +7,82 @@ header {
     min-height: 30%;
 }
 
-#title {
+.title-and-banner {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
     text-align: center;
+}
+
+h1 {
+    font-size: 300%;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.banner {
+    width: 90%;
+    height: 10%;
+}
+
+#news, #ad {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    align-content: center;
+}
+
+.images {
+    width: 40%;
+    height: 100%;
+    margin: 2% 5%;
+}
+
+.words {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    font-size: 200%;
+}
+
+#sale {
+    color: red;
+    font-size: 230%;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.words-2 {
+    margin: 1% 5%;
+    text-align: center;
+}
+
+.picture-2 {
+    margin-bottom: 3%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.picture-3 {
+    width: 40%;
+    height: 40%;
 }
